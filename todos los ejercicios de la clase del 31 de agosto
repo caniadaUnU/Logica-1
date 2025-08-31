@@ -1,0 +1,38 @@
+for i in range(5):
+    print(i)
+
+print("segundo ejercicio")
+
+for i in range(1, 6):
+    print(i)
+
+print("tercer ejercicio")
+
+for i in range(0, 21, 2):
+    print(i)
+
+print("cuarto ejercicio")
+
+for i in range(20, 0, -1):
+    print(i)
+
+conteo_multiplos_de_3 = 0
+for i in range(1, 101):
+    if i % 3 == 0:
+        conteo_multiplos_de_3 += 1
+print(f"los múltiplos de 3 son: {conteo_multiplos_de_3}")
+
+suma_total = 0
+for i in range(1, 101):
+    suma_total += i
+print(f"la suma de los primeros 100 números es: {suma_total}")    
+
+N = 5
+acumulador = 0
+
+for _ in range(N): 
+    x = float(input("hey, dame un número: "))
+    acumulador += x
+
+promedio = acumulador / N
+print(f"el promedio es: {promedio}")
